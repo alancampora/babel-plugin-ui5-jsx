@@ -1,0 +1,28 @@
+{
+  "name": "babel-plugin-ui5-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "babel-plugin-ui5-jsx": "index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0"
+  },
+  "dependencies": {
+    "babel-plugin-jsx-to-object": "^1.0.1",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "esutils": "^2.0.2"
+  },
+  "babel": {
+    "plugins": [
+      "./babel-plugin-ui5-jsx.js"
+    ]
+  }
+}
